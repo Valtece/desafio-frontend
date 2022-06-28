@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #f2ebe3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 40%;
+    height: 60%;
+    background-color: #f2ebe3;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.lado-esq {
+    width: 50%;
+    height: 100%;
+}
+
+.lado-dir {
+    width: 50%;
+    height: 100%;
+}
+.img-desktop {
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
