@@ -126,6 +126,11 @@ main {
     align-items: center;
 }
 
+.btn:hover{
+    background-color: hsl(160, 49%, 21%);
+    cursor: pointer;
+}
+
 .img-btn {
     margin-right: 5px;
 }
