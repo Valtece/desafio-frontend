@@ -78,3 +78,65 @@ main {
     letter-spacing: 0.8px;
     line-height: 1.6em;
 }
+
+.valores {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.valor1 {
+    width: 50%;
+}
+
+.valor2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.valor1 p {
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 2.1rem;
+    color: hsl(158, 36%, 37%)
+}
+
+.valor2 p {
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 0.8rem;
+    color: hsl(210, 10%, 32%);
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+.area-btn {
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn {
+    margin-right: 5px;
+}
+
+
+.btn p {
+    text-align: center;
+    color: white;
+    font-weight: 700px;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+
