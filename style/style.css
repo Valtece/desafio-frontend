@@ -147,7 +147,7 @@ main {
 @media (max-width: 470px){
     .container {
         flex-direction: column;
-        height: 620px;
+        height: 640px;
         width: 550px;
     }
     .img-desktop {
@@ -181,5 +181,11 @@ main {
     .area-btn {
         padding: 20px 30px;
     }
+
+    .btn {
+        padding: 15px;
+        
+    }
+    
 }
 
