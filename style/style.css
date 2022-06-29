@@ -16,8 +16,8 @@ main {
 }
 
 .container {
-    height: 60%;
-    width: 40%;
+    height: 400px;
+    width: 550px;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
