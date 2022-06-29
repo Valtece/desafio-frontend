@@ -159,5 +159,27 @@ main {
     .valor2 p {
         margin-left: 0px;
     }
+
+    .perfume {
+        padding: 25px 30px;
+    }
+
+    .titulo {
+        padding: 0px 30px;
+    }
+
+    .paragrafo {
+        padding: 20px 30px;
+    }
+
+    .valores {
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .area-btn {
+        padding: 20px 30px;
+    }
 }
 
