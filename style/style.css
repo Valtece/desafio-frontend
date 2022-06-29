@@ -16,7 +16,7 @@ main {
 }
 
 .container {
-    height: 400px;
+    height: 420px;
     width: 550px;
     display: flex;
     flex-direction: row;
@@ -32,6 +32,7 @@ main {
 .lado-dir {
     width: 50%;
     width: 100%;
+    padding: 30px;
 }
 
 .img-desktop {
@@ -39,4 +40,37 @@ main {
     height: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+}
+
+.perfume {
+    padding-bottom: 20px;
+}
+
+.perfume h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: hsl(212, 21%, 14%);
+}
+
+.titulo h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700px;
+    font-size: 2.1rem;
+    color: hsl(207, 13%, 27%);
+    line-height: 1em;
+}
+
+.paragrafo {
+    padding-top: 20px;
+}
+
+.paragrafo h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 0.8rem;
+    color: hsl(212, 21%, 14%);
+    letter-spacing: 1px;
+    line-height: 1.6em;
 }
