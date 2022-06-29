@@ -6,50 +6,37 @@
 }
 
 main {
+    background-color: hsl(30, 38%, 92%);
     height: 100vh;
-    width: 100%;
-    background-color: #f2ebe3;
+    max-width: 1440%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-body {
-    background-color: #f2ebe3;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main {
-    width: 40%;
-    height: 60%;
-    background-color: #f2ebe3;
 }
 
 .container {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    background-color: white;
+    height: 60%;
+    width: 40%;
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
 }
 
 .lado-esq {
     width: 50%;
-    height: 100%;
+    width: 100%;
 }
-
 .lado-dir {
     width: 50%;
-    height: 100%;
-}
-.img-desktop {
-    height: 100%;
     width: 100%;
+}
+
+.img-desktop {
+    width: 100%;
+    height: 100%;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
