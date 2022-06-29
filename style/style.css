@@ -144,4 +144,20 @@ main {
     margin-left: 5px;
 }
 
+@media (max-width: 470px){
+    .container {
+        flex-direction: column;
+        height: 620px;
+        width: 550px;
+    }
+    .img-desktop {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .valor2 p {
+        margin-left: 0px;
+    }
+}
 
